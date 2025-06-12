@@ -23,6 +23,8 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      indent: ['error', 'tab'],
+      '@typescript-eslint/indent': ['error', 'tab'],
     },
   },
 )
